@@ -31,6 +31,7 @@ fn task(
         run_time: None,
         status_message: None,
         source: None,
+        execution_location: None,
         session_id: session_id.map(str::to_string),
         session_link: None,
         creator: None,
